@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+wagtail = "*"
+djoser = "*"
+django-storages = {extras = ["s3"], version = "*"}
+django-redis = "*"
+django-debug-toolbar = "*"
+django-cors-headers = "*"
+psycopg = {extras = ["binary"], version = "*"}
+boto3 = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
