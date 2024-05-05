@@ -35,6 +35,8 @@ services:
       POSTGRES_USER: postgres-user
 
   redis-cache: 
+    networks:
+      - app-tier
     image: redis:latest
     environment:
       - ALLOW_EMPTY_PASSWORD=yes

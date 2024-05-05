@@ -28,6 +28,7 @@ INSTALLED_APPS = [
     "search",
     "wagtail.contrib.forms",
     "wagtail.contrib.redirects",
+    "wagtail.contrib.routable_page",
     "wagtail.embeds",
     "wagtail.sites",
     "wagtail.users",
@@ -53,6 +54,8 @@ INSTALLED_APPS = [
     # "djoser",
     # "corsheaders",
     "storages",
+    # development
+    "blog",
 ]
 
 MIDDLEWARE = [
